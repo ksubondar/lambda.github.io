@@ -17,13 +17,13 @@ $(document).ready(function () {
         });
       });
       $(window).on('resize', function() {
-        if ($(window).width() < 1220) {
+        if ($(window).width() < 1221) {
           $('.first-menu-img').detach().prependTo('.form-adaptive-img-one'),
           $('.second-menu-img').detach().prependTo('.form-adaptive-img-two');
         }
         });
         $(window).on('resize', function() {
-          if ($(window).width() < 768) {
+          if ($(window).width() < 769) {
             $('.header-social').detach().prependTo('.menu');
           }
           });
