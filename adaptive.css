@@ -98,22 +98,25 @@
       top: 60px;
     }
     .hamburger-background {
-        background: #395315;
+        background: #858c1b00;
+        opacity: 0.9;
         border-radius: 50%;
         -webkit-border-radius: 50%;
         -moz-border-radius: 50%;
         -ms-border-radius: 50%;
         -o-border-radius: 50%;
-        width: 60px;
-        height: 60px;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        width: 62px;
+    padding-top: 5px;
+    height: 62px;
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    -webkit-box-shadow: 0 5px 30px rgb(0 0 0 / 25%), inset 3px 2px 2px 0px rgb(61 107 37 / 30%), 0 2px 0 rgb(0 0 0 / 10%), inset 0 0 20px rgb(0 0 0 / 10%);
-            box-shadow: 0 5px 30px rgb(0 0 0 / 25%), inset 3px 2px 2px 0px rgb(61 107 37 / 30%), 0 2px 0 rgb(0 0 0 / 10%), inset 0 0 20px rgb(0 0 0 / 10%);
+    -webkit-box-shadow: 0 5px 30px rgb(0 0 0 / 25%), inset 3px 2px 2px 0px rgb(255 255 255 / 10%), 0 2px 0 rgb(0 0 0 / 10%), inset 0 0 20px rgb(0 0 0 / 10%);
+            box-shadow: 0 5px 30px rgb(0 0 0 / 25%), inset 3px 2px 2px 0px rgb(255 255 255 / 10%), 0 2px 0 rgb(0 0 0 / 10%), inset 0 0 20px rgb(0 0 0 / 10%);
 }
     .hamburger {
     width: 33px;
@@ -121,7 +124,7 @@
     -webkit-transform: translate(-50%, -50%);
         -ms-transform: translate(-50%, -50%);
             transform: translate(-50%, -50%);
-    background: #f1f4f5;
+    background: rgb(255 255 255 / 65%);
     -webkit-transition: 0.5s;
     -o-transition: 0.5s;
     transition: 0.5s;
@@ -135,7 +138,7 @@
     width: 31px;
     height: 3px;
     position: absolute;
-    background: #f1f4f5;
+    background: rgb(255 255 255 / 65%);
     -webkit-transition: 0.5s;
     -o-transition: 0.5s;
     transition: 0.5s;
