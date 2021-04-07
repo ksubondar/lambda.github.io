@@ -519,6 +519,9 @@ font-weight: bold;
 color: #c9a131;
 margin-bottom: 5%;
 }
+form input {
+  background-color: #fff;
+}
 form input, form label select {
 padding-left: 4.5%;
 width: 200px;
@@ -535,6 +538,7 @@ select {
 appearance: none;
 position: relative;
 cursor: pointer;
+  background-color: #fff;
 }
 form input:focus, form select:focus {
   border: solid 1px #c89f2d;;
