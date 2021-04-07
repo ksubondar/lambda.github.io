@@ -60,7 +60,7 @@
           right: 0;
             display: none;
             position: absolute;
-            background: #2a3b40;
+            background: rgb(65 86 93);
             padding-left: 30px;
             padding-top: 50px;
             padding-bottom: 34px;
@@ -77,6 +77,7 @@
     }
     .menu li a {
         font-size: 30px;
+        text-shadow: 1px 1px 5px black;
     }
     .menu li:hover {
         transform: translateX(60px);
@@ -349,7 +350,7 @@
 }
 @media only screen and (max-width: 475px) {
 .menu {
-    width: 170%;
+    width: 100vw;
 }
 .icon {
     right: -80%;
