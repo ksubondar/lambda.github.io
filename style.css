@@ -536,6 +536,9 @@ appearance: none;
 position: relative;
 cursor: pointer;
 }
+form input:focus, form select:focus {
+  border: solid 1px #c89f2d;;
+}
 .date-container {
   position: relative;
   
