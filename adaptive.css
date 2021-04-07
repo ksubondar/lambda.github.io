@@ -96,7 +96,8 @@
     cursor: pointer;
     }
     .icon.active {
-      top: 60px;
+      top: 0;
+      right: -75%;
     }
     .hamburger-background {
         background: #858c1b00;
@@ -317,6 +318,9 @@
     form input, form label select {
         width: 100%;
     }
+    .fa-chevron-down {
+        left: 96%;
+    }
     form button {
         width: 50%;
     }
@@ -347,6 +351,9 @@
         max-width: 100%;
         margin-left: 0;
     }
+    .fa-chevron-down {
+        left: 94%;
+    }
 }
 @media only screen and (max-width: 475px) {
 .menu {
@@ -375,9 +382,15 @@
     .icon {
         right: -55%;
     }
+    .icon.active {
+    left: 55%;
+}
 }
 @media only screen and (max-width: 355px) {
 .special-mark-dishes, .special-mark-salad {
     top: -27%;
+}
+    .fa-chevron-down {
+    left: 92%;
 }
 }
