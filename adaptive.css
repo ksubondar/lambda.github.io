@@ -21,6 +21,10 @@
     top: 40%;
 }
 }
+@media only screen and (max-width: 1461px) {
+    .special-mark-dishes, .special-mark-salad {
+        top: -34%;
+    }
 @media only screen and (max-width: 1280px) {
     .logo {
         -webkit-box-flex: 0;
@@ -214,6 +218,9 @@
             -ms-grid-row-align: center;
             align-self: center;
     }
+    .special-mark-dishes, .special-mark-salad {
+    top: -44%;
+}
     .ingridients-container {
         max-width: 68.718%;
         margin-left: 31.282%;
