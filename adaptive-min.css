@@ -1,0 +1,20 @@
+@media only screen and (min-width: 2293px) {
+    form {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        grid-column-gap: 2%;
+    }
+    .form-button {
+        margin-top: 0;
+    }
+    form button {
+        width: 30%;
+        margin: 5% 35% 0;
+    }
+}
+@media only screen and (min-width: 2313px) {
+    .special-mark-dishes, .special-mark-salad {
+        top: -45%;
+    }
+}
