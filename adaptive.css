@@ -274,6 +274,7 @@
     }
     .header-social {
         margin-bottom: 30px;
+        text-align: left;
     }
     .header-social a {
         margin-right: 20px;
